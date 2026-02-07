@@ -77,7 +77,7 @@ p apple
 apple.save
 
 # 7. delete a row
-apple.destroy
+## apple.destroy
 puts "companies in cali: #{california_companies.count}" # companies in cali: 2
 
 expected_count_of_companies = 3

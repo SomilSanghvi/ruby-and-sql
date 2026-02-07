@@ -19,11 +19,14 @@
 # 1. in terminal, generate a model and table for ______
 # rails generate model _____
 
+
 # 2. open newly generated files
 
 # 3. in the db/migrate file, add relevant columns matching our domain model
 
 # 4. in terminal, execute the migration file
 # rails db:migrate
+
+puts Salesperson.column_names
 
 # 5. check the schema to confirm the change

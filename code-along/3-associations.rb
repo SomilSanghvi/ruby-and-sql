@@ -52,5 +52,11 @@ p new_contact
 
 
 # 2. How many contacts work at Apple?
+apple_contacts = Contact.where({ "company_id" => apple["id"] })
+puts apple_contacts.count
 
 # 3. What is the full name of each contact who works at Apple?
+
+apple_contacts.each do |contact|
+  puts "#{contact["first_name"]} #{contact["last_name"]}"
+end

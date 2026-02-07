@@ -7,11 +7,11 @@
 ## puts "hi"
 
 # String Class
-## bens_favorite_food = "tacos"
+bens_favorite_food = "tacos"
 ## somils_favorite_food = "mac and cheese"
 
 # String Methods
-## puts bens_favorite_food.class
+puts bens_favorite_food.class
 ## puts bens_favorite_food.upcase
 
 ## puts String.methods
